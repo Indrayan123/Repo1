@@ -1,0 +1,26 @@
+Trace file E:\ORACLE\XE\APP\ORACLE\diag\rdbms\xe\xe\trace\xe_vktm_3008.trc
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+Windows NT Version V6.1  
+CPU                 : 4 - type 8664, 2 Physical Cores
+Process Affinity    : 0x0x0000000000000000
+Memory (Avail/Total): Ph:6812M/8064M, Ph+PgF:14246M/16127M 
+Instance name: xe
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 4
+Windows thread id: 3008, image: ORACLE.EXE (VKTM)
+
+
+*** 2017-02-21 08:07:56.926
+*** SESSION ID:(1.1) 2017-02-21 08:07:56.926
+*** CLIENT ID:() 2017-02-21 08:07:56.926
+*** SERVICE NAME:() 2017-02-21 08:07:56.926
+*** MODULE NAME:() 2017-02-21 08:07:56.926
+*** ACTION NAME:() 2017-02-21 08:07:56.926
+ 
+kstmmainvktm: succeeded in setting elevated priority
+highres_enabled
+
+*** 2017-02-21 08:07:56.926
+VKTM running at (10)millisec precision with DBRM quantum (100)ms
+[Start] HighResTick = 76538072
+kstmrmtickcnt = 0 : ksudbrmseccnt[0] = 1487644676
