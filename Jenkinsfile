@@ -8,7 +8,16 @@ pipeline {
   stages {
     stage('PreBuild') {
       steps {
-        echo 'JAVA_App PreBuild Validation'
+        parallel(
+          "PreBuild": {
+            echo 'JAVA_App PreBuild Validation'
+            
+          },
+          "Code Compile": {
+            echo 'echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}'
+            
+          }
+        )
       }
     }
   }
