@@ -6,14 +6,9 @@ pipeline {
     
   }
   stages {
-    stage('PreBuild') {
-      steps {
-        echo 'JAVA_App PreBuild Validation'
-      }
-    }
     stage('Initiate') {
       steps {
-        echo 'Running %{env.BUILD_ID}'
+        echo 'Running %env.BUILD_ID'
       }
     }
   }
